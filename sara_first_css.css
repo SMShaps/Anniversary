@@ -1,0 +1,50 @@
+body {
+background-image: url(gerbera.jpg);
+background-size: cover;
+}
+
+
+h1{text-align: center;}
+h2{text-align: center;
+font-style: normal;}
+h4{text-align: center;
+font-style: italic;
+font-size: 25px}
+p{text-align: center;
+font-style:   normal;
+font-size: 25px}
+
+ul{text-align: center;}
+ol{text-align: center;;}
+
+.synopsis {
+  color : #7E8184;
+  font-style: oblique;
+}
+
+ul li {
+    list-style:  inherit;
+    display: inline-block;
+}
+
+ol li {list-style: inherit;
+      display: block;}
+
+.container{
+                display: flex;
+                flex-wrap:      wrap;
+                justify-content: flex-start;
+      }
+
+img{
+        width: 270px;
+        height: 200px;
+        margin: 15px;
+
+           transition: all 1s;
+
+      }
+
+img:hover {
+         transform: scale(1.1);
+      }
